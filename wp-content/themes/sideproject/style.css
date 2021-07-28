@@ -6,8 +6,8 @@ Version: 0.1
 Description: Tema khusus akuntansionline.net, dilarang mengubah tanpa izin! kontak praseetyaa@gmail.com untuk melakukan perubahan
 */
 :root{
-    --primary: #2559A5;
-    --primary-s: #DBE6F7;
+    --primary: #000E38;
+    --primary-s: #DFE7FF;
     --secondary: #F9520B;
     --secondary-s: #FFF3EE;
     --danger: #DC3545;
@@ -38,15 +38,15 @@ Description: Tema khusus akuntansionline.net, dilarang mengubah tanpa izin! kont
 .show>.btn-primary.dropdown-toggle:focus{box-shadow:0 0 0 .25rem var(--primary-s);}
 .btn-primary.disabled,.btn-primary:disabled{color:var(--primary);background-color:var(--bs-white);border-color:var(--primary-s)}
 /*secondary*/
-.btn-secondary{color:var(--secondary);background-color:var(--secondary-s);border-color:var(--secondary-s)}
-.btn-secondary:hover{color:var(--bs-white);background-color:var(--secondary);border-color:var(--secondary)}
+.btn-secondary{color:var(--bs-white);background-color:var(--primary);border-color:var(--primary)}
+.btn-secondary:hover{color:var(--bs-white);background-color:var(--primary);border-color:var(--primary)}
 .btn-check:focus+.btn-secondary,
-.btn-secondary:focus{color:var(--bs-white);background-color:var(--secondary);border-color:var(--secondary);box-shadow:0 0 0 .25rem var(--secondary-s)}
+.btn-secondary:focus{color:var(--bs-white);background-color:var(--primary);border-color:var(--primary);box-shadow:0 0 0 .25rem var(--primary-s)}
 .btn-check:active+.btn-secondary,
 .btn-check:checked+.btn-secondary,
 .btn-secondary.active,
 .btn-secondary:active,
-.show>.btn-secondary.dropdown-toggle{color:var(--bs-white);background-color:var(--secondary);border-color:var(--secondary)}
+.show>.btn-secondary.dropdown-toggle{color:var(--bs-white);background-color:var(--primary);border-color:var(--primary)}
 .btn-check:active+.btn-secondary:focus,
 .btn-check:checked+.btn-secondary:focus,
 .btn-secondary.active:focus,
@@ -68,7 +68,7 @@ Description: Tema khusus akuntansionline.net, dilarang mengubah tanpa izin! kont
 .footer-link:hover{color: var(--bs-white); text-decoration: underline!important;}
 /*navbar*/
 .navbar{transition: var(--transition);}
-.navbar .navbar-brand img{height: 40px;}
+.navbar .navbar-brand img{position: relative; top: -5px; height: 25px;}
 .navbar .nav-link{font-weight: 500;}
 .navbar.shrink{background: #fff; box-shadow: var(--shadow-s); position: sticky; top: 0; z-index: 10000; transition: var(--transition) ;}
 .navbar.shrink .nav-link{color: rgba(0,0,0,.55);}
@@ -77,6 +77,9 @@ Description: Tema khusus akuntansionline.net, dilarang mengubah tanpa izin! kont
 .navbar.shrink .nav-link.active{color: rgba(0,0,0,1);}
 .navbar.shrink .nav-link.active:hover{color: rgba(0,0,0,1);}
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{color: var(--primary);}
+.navbar-light .navbar-nav .nav-link.active .fas{font-size: .25rem; display: inline;}
+.navbar-light .navbar-nav .nav-link .fas{font-size: .25rem; display: none;}
+/*.navbar-light .navbar-nav .nav-link.active:after{content: ''; position: absolute; width: 5px; height: 5px; background-color: var(--primary); bottom: 20%; margin: 0 auto;}*/
 /*blog*/
 .entry{word-wrap: break-word;}
 .entry img{max-width: 100%; height: auto;}
@@ -108,6 +111,7 @@ Description: Tema khusus akuntansionline.net, dilarang mengubah tanpa izin! kont
 .page-numbers:focus{z-index: 3; color: #0a58ca; background-color: #e9ecef; outline: 0; box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);}
 .page-numbers.current{ z-index: 3; color: var(--bs-white); background-color:  var(--primary); border-color:  var(--primary);}
 /*section*/
+.section-header .img-profile{width: 100%; height: 300px; background-image: url("assets/images/f-1.jpg"); background-size: cover; background-repeat: no-repeat; background-position: 0 -50px;}
 .section-client .fa-check{background-color: var(--success-s); color: var(--success); border-radius: .25rem; padding: .25rem; margin-right: .5rem;}
 .section-client .fa-times{background-color: var(--danger-s); color: var(--danger); border-radius: .25rem; padding: .25rem .425rem; margin-right: .5rem;}
 .section-benefit{position:relative; top: -3rem;}
@@ -138,13 +142,6 @@ Description: Tema khusus akuntansionline.net, dilarang mengubah tanpa izin! kont
     0% {opacity: 1;}
     50% {opacity: 0;}
     100% {opacity: 1;}
-}
-@keyframes fab{
-    0% {transform: scale(1);}
-    25% {transform: scale(1);}
-    50% {transform: scale(.9);}
-    75% {transform: scale(1);}
-    100% {transform: scale(1);}
 }
 @media (max-width: 768px) {
     .navbar{background-color: #fff}

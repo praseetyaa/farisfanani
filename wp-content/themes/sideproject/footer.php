@@ -9,7 +9,7 @@
 				<div class="col-12 col-md-12 col-lg-3 text-start text-md-center text-lg-start">
 					<a href="<?php echo home_url() ?>">
 						<div class="p-3 rounded-1 bg-white mx-0 mx-md-auto mx-lg-0" style="width: fit-content;">
-							<img class="mb-lg-0" height="50" src="https://akuntansionline.net/wp-content/uploads/2019/10/LOGO-AKUNTANSI-ONLINE-100x47.png" alt="logo-akuntansi-online-net">
+							<img src="<?php echo home_url() ?>/wp-content/uploads/2019/09/cropped-Logo-Putih-berlubang-1.svg" height="35">
 						</div>
 					</a>
 					<div class="mt-3 text-white">
@@ -71,19 +71,6 @@
 			<span>©2021 Akuntansi Online. All rights reserved</span>
 		</div>
 	</footer>
-	<!-- fab -->
-	<div class="fixed-bottom d-flex align-items-center justify-content-end text-end fab-wa" style="width: fit-content; left: unset;">
-		<a href="https://wa.me/62816282136" target="blank" class="text-decoration-none text-body">
-			<div class="bg-white shadow-sm px-3 py-2 me-2 rounded-3" style="width: fit-content; animation: fab 2s infinite ease">
-				<span class="fw-bold">Hubungi Kami</span>
-			</div>
-		</a>
-		<a href="https://wa.me/62816282136" target="blank">
-		<div class="rounded-circle shadow-sm float-end text-center d-flex align-items-center justify-content-center me-2 mb-2" style="width: 60px; height: 60px; background-color: #00E676;">
-			<i class="fab fa-whatsapp fs-1 text-white"></i>
-		</div>
-		</a>
-	</div>
     <!-- Bootstrap -->
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- jQ -->
