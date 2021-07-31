@@ -108,19 +108,132 @@ Template Name: Halaman About
 </section>
 <section class="section-c-start mt-4">
     <div class="container">
-        <h3>Pendidikan</h3>
+        <h3 class="text-center mb-4">Pendidikan</h3>
+        <hr>
         <h5>Formal</h5>
-        <div class="row">
-            <div class="col-lg-6 mb-3 mb-lg-0">
-                <div class="d-flex">
-                    <img width="40" src="<?php echo home_url() ?>/wp-content/uploads/2019/08/undip-150x150.png" alt="img" class="me-2">
-                    <div>
-                        <p class="m-0">S1 Fakultas Psikologi</p>
-                        <p class="m-0">Universitas Diponegoro</p>
-                    </div>
+        <div class="row mb-4">
+            <div class="col-lg-6 mb-3 mb-lg-0 d-flex align-items-center">
+                <img width="60" src="<?php echo home_url() ?>/wp-content/uploads/2019/08/undip-150x150.png" alt="img" class="me-3">
+                <div>
+                    <p class="m-0">S1 Fakultas Psikologi</p>
+                    <p class="m-0">Universitas Diponegoro</p>
                 </div>
             </div>
-            <div class="col-lg-6 mb-3 mb-lg-0"></div>
+            <div class="col-lg-6 mb-3 mb-lg-0 d-flex align-items-center">
+                <img width="60" src="<?php echo home_url() ?>/wp-content/uploads/2019/08/UMS-Logo_Resmi-150x150.png" alt="img" class="me-3">
+                <div>
+                    <p class="m-0">S2 Magister Psikologi Profesi</p>
+                    <p class="m-0">Universitas Muhammadiyah Surakarta</p>
+                </div>
+            </div>
+        </div>
+        <h5>Non Formal</h5>
+        <div class="row">
+            <div class="col-lg-6 mb-3 d-flex align-items-center">
+                <img width="60" src="https://farisfanani.id/wp-content/uploads/2019/08/logoNNLP-300.png" alt="img" class="me-3">
+                <div>
+                    <p class="m-0">Certified Trainer</p>
+                    <p class="m-0">NNLP Practitioner Neo NLP Society</p>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-3 d-flex align-items-center">
+                <img width="60" src="https://farisfanani.id/wp-content/uploads/2019/08/seft-logo.jpg" alt="img" class="me-3">
+                <div>
+                    <p class="m-0">Certified</p>
+                    <p class="m-0">Spiritual Emotional Freedom Technique</p>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-3 d-flex align-items-center">
+                <img width="60" src="https://farisfanani.id/wp-content/uploads/2019/08/ctc.png" alt="img" class="me-3">
+                <div>
+                    <p class="m-0">Certified</p>
+                    <p class="m-0">Creative Trauma Cleansing Technique</p>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-3 d-flex align-items-center">
+                <img width="60" src="https://farisfanani.id/wp-content/uploads/2019/08/genpro.jpg" alt="img" class="me-3">
+                <div>
+                    <p class="m-0">Certified Business Mentor</p>
+                    <p class="m-0">by Global Entrepreneur Professional</p>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-3 d-flex align-items-center">
+                <img width="60" src="https://farisfanani.id/wp-content/uploads/2019/08/cropped-logo-stifin-genetic-intelligence-1.png" alt="img" class="me-3">
+                <div>
+                    <p class="m-0">Certified Licenced</p>
+                    <p class="m-0">Promotor STIFIn Personality</p>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-3 d-flex align-items-center">
+                <img width="60" src="https://farisfanani.id/wp-content/uploads/2019/08/iibf-1.png" alt="img" class="me-3">
+                <div>
+                    <p class="m-0">Certified</p>
+                    <p class="m-0">Indonesian Islamic Business Forum (IIBF) Ambasador</p>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-3 d-flex align-items-center">
+                <img width="60" src="https://farisfanani.id/wp-content/uploads/2019/08/ibh.jpg" alt="img" class="me-3">
+                <div>
+                    <p class="m-0">Certified Hypnotherapist</p>
+                    <p class="m-0">by Indonesian Board of Hypnotherapy</p>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-3 d-flex align-items-center">
+                <img width="60" src="https://farisfanani.id/wp-content/uploads/2019/08/ground-business.png" alt="img" class="me-3">
+                <div>
+                    <p class="m-0">Certified</p>
+                    <p class="m-0">Grounded Business Coach from Empowering Indonesia Network</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-c-start mt-4">
+    <div class="container">
+        <h3 class="text-center">Pengalaman Organisasi</h3>
+        <hr>
+        <div class="row">
+            <div class="col-lg-6">
+                <p class="mb-1"><i class="fas fa-bookmark me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .5rem; border-radius: .25rem;"></i> Ikatan Keluarga Alumni Psikologi Undip</p>
+                <p class="mb-1"><i class="fas fa-bookmark me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .5rem; border-radius: .25rem;"></i> Global Enterpreneur & Profesional (Genpro) Jawa Tengah</p>
+                <p class="mb-1"><i class="fas fa-bookmark me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .5rem; border-radius: .25rem;"></i> Jaringan Pengusaha Muslim Indonesia (JPMI) Jawa Tengah</p>
+                <p class="mb-1"><i class="fas fa-bookmark me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .5rem; border-radius: .25rem;"></i> Indonesian Congress & Convention Association (INCCA) Jawa Tengah</p>
+            </div>
+            <div class="col-lg-6">
+                <p class="mb-1"><i class="fas fa-bookmark me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .5rem; border-radius: .25rem;"></i> Indonesian Islamic Business Forum (IIBF) Jawa Tengah</p>
+                <p class="mb-1"><i class="fas fa-bookmark me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .5rem; border-radius: .25rem;"></i> Komunitas Sales Indonesia (Komisi) Jawa Tengah</p>
+                <p class="mb-1"><i class="fas fa-bookmark me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .5rem; border-radius: .25rem;"></i> Ikatan Dai Indonesia (IKADI) Jawa Tengah</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-c-start my-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-3 mb-lg-0">
+                <h3>Karier</h3>
+                <hr>
+                <p class="mb-1"><i class="fas fa-dot-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> CEO BISA Enterprise</p>
+                <p class="mb-1"><i class="fas fa-dot-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> CEO Campus Data Media</p>
+                <p class="mb-1"><i class="fas fa-dot-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> Konsultan SDM dan Bisnis</p>
+                <p class="mb-1"><i class="fas fa-dot-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> Konselor Dan Psikoterapis pada Personality Talk</p>
+                <p class="mb-1"><i class="fas fa-dot-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> Promotor STIFIn Singapore dan Trainer NLP</p>
+            </div> 
+            <div class="col-lg-4 mb-3 mb-lg-0">
+                <h3>Aktivitas Sosial</h3>
+                <hr>
+                <p class="mb-1"><i class="fas fa-dot-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> Pendiri dan Pembina Pesantren Quran Bina Ihsan</p>
+                <p class="mb-1"><i class="fas fa-dot-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> Pembina Majelis Sahabat Al Quran Kota Semarang</p>
+                <p class="mb-1"><i class="fas fa-dot-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> Koordinator Beastudi Etos Universitas Diponegoro Semarang</p>
+                <p class="mb-1"><i class="fas fa-dot-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> Pembina Desa Produktif Rowosari Kota Semarang</p>
+            </div>
+            <div class="col-lg-4 mb-3 mb-lg-0">
+                <h3>Penghargaan</h3>
+                <hr>
+                <p class="mb-1"><i class="fas fa-dot-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> Indonesian Islamic Business Forum/IIBF Ambasador (2010)</p>
+                <p class="mb-1"><i class="fas fa-dot-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> Alumni Award dari Undip (2014)</p>
+            </div>
+            </div>
         </div>
     </div>
 </section>
