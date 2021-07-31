@@ -1,81 +1,47 @@
-	<div class="custom-shape-divider-top-1623133865">
-	    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-	        <path d="M602.45,3.86h0S572.9,116.24,281.94,120H923C632,116.24,602.45,3.86,602.45,3.86Z" class="shape-fill"></path>
-	    </svg>
-	</div>
-	<footer class="section-footer pt-5" style="background-color: var(--primary)">
-		<div class="container">
-			<div class="row">
-				<div class="col-12 col-md-12 col-lg-3 text-start text-md-center text-lg-start">
-					<a href="<?php echo home_url() ?>">
-						<div class="p-3 rounded-1 bg-white mx-0 mx-md-auto mx-lg-0" style="width: fit-content;">
-							<img src="<?php echo home_url() ?>/wp-content/uploads/2019/09/cropped-Logo-Putih-berlubang-1.svg" height="35">
-						</div>
-					</a>
-					<div class="mt-3 text-white">
-						<a target="_blank" href="https://www.facebook.com/akuntansionlineterlengkap" class="footer-link me-3" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Facebook" rel="noreferrer"><i class="fab fa-facebook h3"></i></a>
-						<a target="_blank" href="https://www.instagram.com/akuntansionline.official/" class="footer-link" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Instagram" rel="noreferrer"><i class="fab fa-instagram h3"></i></a>
+	<section class="section-e">
+		<div class="bg-primary py-4">
+			<div class="container">
+				<div class="row align-items-center mb-4">
+					<div class="col-lg-9 mb-3 mb-lg-0 text-white">
+						<h3>Permintaan Jadwal & Pertemuan</h3>
+						<p class="mb-0">Silahkan menghubungi kami untuk jadwal temu dan konsultasi, klik tombol WhatsApp untuk chat langsung dengan kami.</p>
+					</div>
+					<div class="col-lg-3 mb-3 mb-lg-0">
+						<a class="btn btn-light d-flex flex-column align-items-center"><i class="fab fa-whatsapp h1" style="color: var(--success);"></i><span class="fw-bold">Chat WhatsApp</span></a>
 					</div>
 				</div>
-				<div class="col-12 col-md-3 col-lg-2">
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item bg-transparent border-0 px-0 fw-bold text-white">
-							Menu
-						</li>
-						<li class="list-group-item bg-transparent border-0 px-0">
-							<a class="footer-link text-decoration-none" href="<?php bloginfo('url'); ?>/fitur/">Fitur</a>
-						</li>
-						<li class="list-group-item bg-transparent border-0 px-0">
-							<a class="footer-link text-decoration-none" href="<?php bloginfo('url'); ?>/harga/">Harga</a>
-						</li>
-						<li class="list-group-item bg-transparent border-0 px-0">
-							<a class="footer-link text-decoration-none" href="<?php bloginfo('url'); ?>/kontak/">Kontak</a>
-						</li>
-					</ul>
-				</div>
-				<div class="col-12 col-md-3 col-lg-2">
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item bg-transparent border-0 px-0 fw-bold text-white">
-							Resources
-						</li>
-						<li class="list-group-item bg-transparent border-0 px-0">
-							<a class="footer-link text-decoration-none" href="<?php bloginfo('url'); ?>/blog/">Blog</a>
-						</li>
-						<li class="list-group-item bg-transparent border-0 px-0">
-							<a class="footer-link text-decoration-none" href="<?php bloginfo('url'); ?>/category/kegiatan/">Kegiatan</a>
-						</li>
-					</ul>
-				</div>
-				<div class="col-12 col-md-6 col-lg-4">
-					<ul class="list-group list-group-flush text-white">
-						<li class="list-group-item bg-transparent border-0 px-0 fw-bold">
-							Hubungi Kami
-						</li>
-						<li class="list-group-item bg-transparent border-0 px-0">
-							<i class="fal fa-map-marker-alt position-absolute" style="font-size: 22px"></i>
-							<p class="mb-0" style="margin-left: 2em"> Jl. Kedungmundu No.27 b, Sambiroto, Kec. Tembalang, Kota Semarang, Jawa Tengah 50273</p>
-						</li>
-						<li class="list-group-item bg-transparent border-0 px-0">
-							<i class="fal fa-phone position-absolute" style="font-size: 22px"></i>
-							<p class="mb-0" style="margin-left: 2em"> (024) 3583732</p>
-						</li>
-						<li class="list-group-item bg-transparent border-0 px-0">
-							<i class="fab fa-whatsapp position-absolute" style="font-size: 22px"></i>
-							<p class="mb-0" style="margin-left: 2em"> +62816282136</p>
-						</li>
-					</ul>					
+				<hr style="background-color: white">
+				<div class="row">
+					<div class="col-lg-6 mb-3 mb-lg-0">
+						<iframe class="rounded" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1979.9203122495326!2d110.423284!3d-7.028012!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708b87b4078187%3A0x80a0acb63f0fdc74!2sJatingaleh%2C%20Candisari%2C%20Semarang%20City%2C%20Central%20Java%2C%20Indonesia!5e0!3m2!1sen!2sus!4v1627628891761!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+					</div>
+					<div class="col-lg-6 mb-3 mb-lg-0 text-white py-lg-5">
+						<h3 class="text-center">Get In Touch</h3>
+						<hr>
+						<div class="row">
+							<div class="col-lg-6 mb-3 mb-lg-0">
+								<h5>Contact Us</h5>
+								<p class="mb-0">+6285540000900</p>
+								<p class="mb-0">farisfanani.id@gmail.com</p>
+							</div>
+							<div class="col-lg-6 mb-3 mb-lg-0">
+								<h5>Our Hours</h5>
+								<p class="mb-0">MON-FRI 09:00 – 19:00</p>
+								<p>SAT-SUN 10:00 – 14:00</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="copyright text-center mt-5 py-2 text-white" style="background-color: rgba(0,0,0,.2);">
-			<span>©2021 Akuntansi Online. All rights reserved</span>
+	</section>
+	<footer class="section-footer" style="background-color: var(--primary)">
+		<div class="copyright text-center py-2 text-white" style="background-color: rgba(0, 0, 0, .3);">
+			<span>Copyright © <?php echo date("Y"); ?> Faris Fanani</span>
 		</div>
 	</footer>
-    <!-- Bootstrap -->
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- jQ -->
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
-    <!-- aos -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
   		AOS.init({
@@ -86,10 +52,7 @@
 		$(document).ready(function() {
 			$(window).scroll(function() {    
 			    var scroll = $(window).scrollTop();
-
-			     //>=, not <=
 			    if (scroll >= 100) {
-			        //clearHeader, not clearheader - caps H
 			        $(".navbar").addClass("shrink");
 			    } else {
 			      $(".navbar").removeClass("shrink");
@@ -103,6 +66,22 @@
 		  return new bootstrap.Tooltip(tooltipTriggerEl)
 		})
     </script>
+	<script type="text/javascript">
+
+	function initialize() {
+
+	  var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+
+	  // Resize stuff...
+	  google.maps.event.addDomListener(window, "resize", function() {
+	    var center = map.getCenter();
+	    google.maps.event.trigger(map, "resize");
+	    map.setCenter(center); 
+	  });
+
+	}
+
+	</script>
     <?php wp_footer(); ?>
     </body>
 </html>

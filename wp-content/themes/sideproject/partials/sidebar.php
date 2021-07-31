@@ -1,19 +1,4 @@
 <div class="sticky-top" style="top: 5rem">
-	<div class="login_author text-center mb-3 rounded" style="background-color: var(--primary-s);">
-		<a class="text-decoration-none author-login" href="<?php echo home_url() ?>/wp-admin/">
-			<div class="p-4">
-				<p class="mb-0 h1"><i class="far fa-user-astronaut"></i></p>
-				<?php $current_user = wp_get_current_user();
-				if ($current_user->display_name != null) { ?>
-					<p class="mb-0">Selamat Datang</p>
-					<h5><?php echo $current_user->display_name; ?></h5>
-				<?php } else { ?>
-						<h5>Author?<br>Login Disini</h5>
-				<?php } ?> 
-			</div>
-		</a>
-	</div>
-
 	<div class="kategori">
 		<div class="card-header bg-transparent mx-3 px-0">
 			<h5>Kategori</h5>
