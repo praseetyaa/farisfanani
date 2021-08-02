@@ -3,19 +3,21 @@
 Template Name: Halaman Blog
 */
 get_header(); ?>
-
-<section class="section-header section-blog py-5">
-    <div class="container text-center py-0 py-lg-5"> 
-        <h1 class="mb-4"><?php the_title();?></h1>
-        <h5 class="mb-3">Artikel, tips, dan checklist menarik yang disiapkan bagi bisnis Anda</h5>
-        <form method="get" action="<?php echo home_url(); ?>" role="search">
-            <div class="input-group">
-              <input type="text" class="form-control" aria-label="Pencarian" aria-describedby="search_input" placeholder="<?php echo esc_attr_x( 'Pencarian Artikel', 'placeholder' ) ?>" value="<?php echo get_search_query() ?>" name="s" title="<?php echo esc_attr_x( 'Search for:', 'label' ) ?>">
-              <button class="input-group-text" id="search_input" style="background-color: var(--primary-s);"><i class="far fa-search" style="color: var(--primary)"></i></button>
-            </div>
-        </form>
+<section class="container position-relative mt-4">
+    <div class="section-g bg-header rounded">
+        <div class="overlay-content position-relative text-white text-center py-0 py-lg-5 rounded overlay-dark"> 
+            <h1 class="mb-4"><?php the_title();?></h1>
+            <h5 class="mb-4">Artikel, tips, dan checklist menarik yang disiapkan bagi bisnis Anda</h5>
+            <form method="get" action="<?php echo home_url(); ?>" role="search">
+                <div class="input-group px-md-5">
+                  <input type="text" class="form-control" aria-label="Pencarian" aria-describedby="search_input" placeholder="<?php echo esc_attr_x( 'Pencarian Artikel', 'placeholder' ) ?>" value="<?php echo get_search_query() ?>" name="s" title="<?php echo esc_attr_x( 'Search for:', 'label' ) ?>">
+                  <button class="input-group-text" id="search_input" style="background-color: var(--primary-s);"><i class="fas fa-search" style="color: var(--primary)"></i></button>
+                </div>
+            </form>
+        </div>
     </div>
 </section>
+
 <section class="section-content py-5">
     <div class="container">
         <div class="row">

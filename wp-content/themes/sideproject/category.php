@@ -4,10 +4,13 @@
 */
  
 get_header(); ?> 
-<section class="section-header section-blog py-5">
-    <div class="container text-center py-0 py-lg-5"> 
-        <h1 class="mb-4">Kategori</h1>
-        <h5><?php $cat = get_the_category(); echo $cat[0]->cat_name; ?></h5>
+
+<section class="container position-relative mt-4">
+    <div class="section-g bg-header rounded">
+        <div class="overlay-content position-relative text-white text-center py-0 py-lg-5 rounded overlay-dark"> 
+	        <h1 class="mb-4">Kategori</h1>
+	        <h5><?php $cat = get_the_category(); echo $cat[0]->cat_name; ?></h5>
+        </div>
     </div>
 </section>
 <section class="bg-light">

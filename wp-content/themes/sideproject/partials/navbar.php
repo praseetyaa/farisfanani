@@ -25,13 +25,16 @@
         </li>
       </ul>
       <ul class="navbar-nav mb-2 mb-lg-0">
-        <li class="nav-item">
+        <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Linkedin">
+          <a class="nav-link " href="#"><i class="fab fa-linkedin"></i></a>
+        </li>
+        <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Twitter">
           <a class="nav-link " href="#"><i class="fab fa-twitter"></i></a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Facebook">
           <a class="nav-link " href="#"><i class="fab fa-facebook"></i></a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Instagram">
           <a class="nav-link " href="#"><i class="fab fa-instagram"></i></a>
         </li>
       </ul>

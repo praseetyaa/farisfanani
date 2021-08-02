@@ -4,10 +4,12 @@
 
     <?php $curauth = (isset($_GET['author_name'])) ? get_user_by('slug', $author_name) : get_userdata(intval($author)); ?>
 
-	<section class="section-header section-blog py-5">
-	    <div class="container text-center py-0 py-lg-5"> 
-	        <h1 class="mb-4"><?php echo $curauth->nickname; ?></h1>
-	        <h5>Daftar Postingan</h5>
+	<section class="container position-relative mt-4">
+	    <div class="section-g bg-header rounded">
+	        <div class="overlay-content position-relative text-white text-center py-0 py-lg-5 rounded overlay-dark"> 
+		        <h1 class="mb-4"><?php echo $curauth->nickname; ?></h1>
+		        <h5>Daftar Postingan</h5>
+	        </div>
 	    </div>
 	</section>
 	<section class="section-content py-5 bg-light">

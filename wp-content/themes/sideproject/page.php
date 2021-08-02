@@ -5,9 +5,11 @@ Template Name: Fitur
 ?>
 <?php get_header(); ?>
 
-<section class="section-header section-blog py-5">
-    <div class="container text-center py-0 py-lg-5"> 
-        <h1 class="mb-4"><?php the_title();?></h1>
+<section class="container position-relative mt-4">
+    <div class="section-g bg-header rounded">
+        <div class="overlay-content position-relative text-white text-center py-0 py-lg-5 rounded overlay-dark"> 
+            <h1 class="mb-4"><?php the_title();?></h1>
+        </div>
     </div>
 </section>
 

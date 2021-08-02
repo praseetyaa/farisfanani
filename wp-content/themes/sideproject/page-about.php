@@ -17,7 +17,7 @@ Template Name: Halaman About
 <section class="section-a mt-4">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-3 mb-3">
+            <div class="col-md-6 col-lg-3 mb-3">
                 <div class="card border shadow-none">
                     <div class="card-body text-center"> 
                         <i class="fas fa-id-card mb-2 h1"></i>
@@ -28,7 +28,7 @@ Template Name: Halaman About
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 mb-3">
+            <div class="col-md-6 col-lg-3 mb-3">
                 <div class="card border shadow-none">
                     <div class="card-body text-center"> 
                         <i class="fas fa-envelope mb-2 h1"></i>
@@ -39,7 +39,7 @@ Template Name: Halaman About
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 mb-3">
+            <div class="col-md-6 col-lg-3 mb-3">
                 <div class="card border shadow-none">
                     <div class="card-body text-center"> 
                         <i class="fab fa-linkedin mb-2 h1"></i>
@@ -50,7 +50,7 @@ Template Name: Halaman About
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 mb-3">
+            <div class="col-md-6 col-lg-3 mb-3">
                 <div class="card border shadow-none">
                     <div class="card-body text-center"> 
                         <i class="fab fa-facebook mb-2 h1"></i>
@@ -61,7 +61,7 @@ Template Name: Halaman About
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 mb-3">
+            <div class="col-md-6 col-lg-3 mb-3">
                 <div class="card border shadow-none">
                     <div class="card-body text-center"> 
                         <i class="fab fa-instagram mb-2 h1"></i>
@@ -72,7 +72,7 @@ Template Name: Halaman About
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 mb-3">
+            <div class="col-md-6 col-lg-3 mb-3">
                 <div class="card border shadow-none">
                     <div class="card-body text-center"> 
                         <i class="fab fa-twitter mb-2 h1"></i>
@@ -83,7 +83,7 @@ Template Name: Halaman About
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 mb-3">
+            <div class="col-md-6 col-lg-3 mb-3">
                 <div class="card border shadow-none">
                     <div class="card-body text-center"> 
                         <i class="fab fa-facebook mb-2 h1"></i>
@@ -213,25 +213,25 @@ Template Name: Halaman About
             <div class="col-lg-4 mb-3 mb-lg-0">
                 <h3>Karier</h3>
                 <hr>
-                <p class="mb-1"><i class="fas fa-dot-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> CEO BISA Enterprise</p>
-                <p class="mb-1"><i class="fas fa-dot-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> CEO Campus Data Media</p>
-                <p class="mb-1"><i class="fas fa-dot-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> Konsultan SDM dan Bisnis</p>
-                <p class="mb-1"><i class="fas fa-dot-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> Konselor Dan Psikoterapis pada Personality Talk</p>
-                <p class="mb-1"><i class="fas fa-dot-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> Promotor STIFIn Singapore dan Trainer NLP</p>
+                <p class="mb-1"><i class="fas fa-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> CEO BISA Enterprise</p>
+                <p class="mb-1"><i class="fas fa-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> CEO Campus Data Media</p>
+                <p class="mb-1"><i class="fas fa-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> Konsultan SDM dan Bisnis</p>
+                <p class="mb-1"><i class="fas fa-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> Konselor Dan Psikoterapis pada Personality Talk</p>
+                <p class="mb-1"><i class="fas fa-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> Promotor STIFIn Singapore dan Trainer NLP</p>
             </div> 
             <div class="col-lg-4 mb-3 mb-lg-0">
                 <h3>Aktivitas Sosial</h3>
                 <hr>
-                <p class="mb-1"><i class="fas fa-dot-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> Pendiri dan Pembina Pesantren Quran Bina Ihsan</p>
-                <p class="mb-1"><i class="fas fa-dot-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> Pembina Majelis Sahabat Al Quran Kota Semarang</p>
-                <p class="mb-1"><i class="fas fa-dot-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> Koordinator Beastudi Etos Universitas Diponegoro Semarang</p>
-                <p class="mb-1"><i class="fas fa-dot-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> Pembina Desa Produktif Rowosari Kota Semarang</p>
+                <p class="mb-1"><i class="fas fa-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> Pendiri dan Pembina Pesantren Quran Bina Ihsan</p>
+                <p class="mb-1"><i class="fas fa-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> Pembina Majelis Sahabat Al Quran Kota Semarang</p>
+                <p class="mb-1"><i class="fas fa-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> Koordinator Beastudi Etos Universitas Diponegoro Semarang</p>
+                <p class="mb-1"><i class="fas fa-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> Pembina Desa Produktif Rowosari Kota Semarang</p>
             </div>
             <div class="col-lg-4 mb-3 mb-lg-0">
                 <h3>Penghargaan</h3>
                 <hr>
-                <p class="mb-1"><i class="fas fa-dot-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> Indonesian Islamic Business Forum/IIBF Ambasador (2010)</p>
-                <p class="mb-1"><i class="fas fa-dot-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> Alumni Award dari Undip (2014)</p>
+                <p class="mb-1"><i class="fas fa-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> Indonesian Islamic Business Forum/IIBF Ambasador (2010)</p>
+                <p class="mb-1"><i class="fas fa-circle me-2" style="background-color: var(--primary-s); color: var(--primary); padding: .3rem .4rem; border-radius: .25rem;"></i> Alumni Award dari Undip (2014)</p>
             </div>
             </div>
         </div>

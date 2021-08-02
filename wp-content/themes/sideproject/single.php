@@ -14,36 +14,37 @@ if (have_posts()) {
         ?>
 
 
-
-<section class="section-header section-blog py-5">
-    <div class="container text-center py-0 py-lg-5"> 
-        <h1 class="mb-4"><?php the_title();?></h1>
-        <span class="meta text-muted">
-            <!-- author -->
-            <i class="far fa-user" aria-hidden="true"></i> 
-            <?php the_author_posts_link(); ?>
-            <!-- time -->
-            <i class="far fa-calendar" aria-hidden="true"></i>
-            <?php the_date( 'D F Y' ); ?>
-            <i class="far fa-clock-o" aria-hidden="true"></i>
-            <?php the_time(); ?>
-            <!-- tag -->
-            <i class="far fa-tags" aria-hidden="true"></i>
-            <?php
-            $posttags = get_the_tags();
-            $count=0;
-            if ($posttags) {
-              foreach($posttags as $tag) {
-                $count++;
-                if (1 == $count) {
-                  echo $tag->name;
-                }
-              }
-            }
-            ?>
-        </span>
+<section class="container position-relative mt-4">
+    <div class="section-g bg-header rounded">
+        <div class="overlay-content position-relative text-white text-center py-0 py-lg-5 rounded overlay-dark"> 
+            <div class="py-lg-5">
+                <h1 class="mb-4"><?php the_title();?></h1>
+                <span class="meta">
+                    <i class="far fa-user" aria-hidden="true"></i> 
+                    <?php the_author_posts_link(); ?>
+                    <i class="far fa-calendar ms-2" aria-hidden="true"></i>
+                    <?php the_date( 'D F Y' ); ?>
+                    <i class="far fa-clock ms-2" aria-hidden="true"></i>
+                    <?php the_time(); ?>
+                    <i class="far fa-tags ms-2" aria-hidden="true"></i>
+                    <?php
+                    $posttags = get_the_tags();
+                    $count=0;
+                    if ($posttags) {
+                      foreach($posttags as $tag) {
+                        $count++;
+                        if (1 == $count) {
+                          echo $tag->name;
+                        }
+                      }
+                    }
+                    ?>
+                </span>
+            </div>
+        </div>
     </div>
 </section>
+
 <section class="section-content py-5">
     <div class="container">
         <div class="row berita">
@@ -80,7 +81,9 @@ if (have_posts()) {
         </div>
     </div>
 </section>
-
+<style type="text/css">
+    .meta a{color: var(--bs-white);}
+</style>
         <?php
     }
 }
