@@ -6,7 +6,7 @@
 
 	<section class="container position-relative mt-4">
 	    <div class="section-g bg-header rounded">
-	        <div class="overlay-content position-relative text-white text-center py-0 py-lg-5 rounded overlay-dark"> 
+	        <div class="overlay-content position-relative text-white text-center py-5 rounded overlay-dark"> 
 		        <h1 class="mb-4"><?php echo $curauth->nickname; ?></h1>
 		        <h5>Daftar Postingan</h5>
 	        </div>

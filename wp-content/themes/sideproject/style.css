@@ -128,7 +128,10 @@ Description: Tema khusus akuntansionline.net, dilarang mengubah tanpa izin! kont
 @media (max-width: 768px) {
     .navbar{background-color: #fff}
     .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{color: rgba(0,0,0,.9);}
+    .navbar-light .navbar-nav .nav-link.active .fas{display: none;}
     .navbar-light .navbar-nav .nav-link{color: rgba(0,0,0,.55);}
+    .section-g.bg-header{background-size: auto;}
+    .section-e.bg-header{background-size: auto;}
 }
 @media (max-width: 575.98px) {
     .img-banner{height: 200px; background-position: 0 -20px;}

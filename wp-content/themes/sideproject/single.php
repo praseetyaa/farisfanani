@@ -16,8 +16,8 @@ if (have_posts()) {
 
 <section class="container position-relative mt-4">
     <div class="section-g bg-header rounded">
-        <div class="overlay-content position-relative text-white text-center py-0 py-lg-5 rounded overlay-dark"> 
-            <div class="py-lg-5">
+        <div class="overlay-content position-relative text-white text-center py-5 rounded overlay-dark"> 
+            <div class="py-lg-5 px-3">
                 <h1 class="mb-4"><?php the_title();?></h1>
                 <span class="meta">
                     <i class="far fa-user" aria-hidden="true"></i> 
@@ -26,7 +26,7 @@ if (have_posts()) {
                     <?php the_date( 'D F Y' ); ?>
                     <i class="far fa-clock ms-2" aria-hidden="true"></i>
                     <?php the_time(); ?>
-                    <i class="far fa-tags ms-2" aria-hidden="true"></i>
+                    <i class="fa fa-tags ms-2" aria-hidden="true"></i>
                     <?php
                     $posttags = get_the_tags();
                     $count=0;
