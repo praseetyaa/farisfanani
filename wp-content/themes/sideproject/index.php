@@ -68,11 +68,11 @@
 					</div>
 				</div>
 				<div class="row row-2 align-items-center mt-3">
-					<div class="col-lg-6 mb-3 mb-lg-0">
+					<div class="col-lg-6 mb-3 mb-lg-0 order-2 order-lg-1">
 						<h3>Miliki Partner Pengembangan SDM</h3>
 						<p>Kami memiliki kompetensi dalam pengembangan SDM yang mampu membuat sitem yang efektif dan efisien. Kami akan membantu anda mengembangkan SDM anda dan memastikan pelaksanaannya agar sesuai dengan target yang ingin dicapai.</p>
 					</div>
-					<div class="col-lg-6 mb-3 mb-lg-0">
+					<div class="col-lg-6 mb-3 mb-lg-0 order-1 order-lg-2">
 						<img class="img-fluid img-banner rounded" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="img">
 					</div>
 				</div>
