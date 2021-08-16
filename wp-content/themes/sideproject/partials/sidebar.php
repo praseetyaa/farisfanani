@@ -49,7 +49,7 @@
 						  <?php
 						    $thetitle = $post->post_title;
 						    $getlength = strlen($thetitle);
-						    $thelength = 30;
+						    $thelength = 40;
 						    echo substr($thetitle, 0, $thelength);
 						    if ($getlength > $thelength) echo "...";
 						  ?>
@@ -57,7 +57,7 @@
 						<small class="text-muted mb-3">
 							<i class="far fa-user"></i> 
 							<a class="text-decoration-none text-muted"><?php the_author_posts_link(); ?></a><br>
-							<i class="far fa-calendar"></i> <?php the_date(); ?>
+							<i class="far fa-calendar"></i> <?php echo date('d M Y',strtotime($post->post_date));?>	
 						</small>
 					</div>
 				</a>

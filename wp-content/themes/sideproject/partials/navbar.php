@@ -26,16 +26,16 @@
       </ul>
       <ul class="navbar-nav mb-2 mb-lg-0 d-flex flex-row">
         <li class="nav-item me-2" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Linkedin">
-          <a class="nav-link " href="#"><i class="fab fa-linkedin"></i></a>
+          <a class="nav-link " href="https://www.linkedin.com/in/faris-fanani/?originalSubdomain=id" target="_blank"><i class="fab fa-linkedin"></i></a>
         </li>
         <li class="nav-item me-2" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Twitter">
-          <a class="nav-link " href="#"><i class="fab fa-twitter"></i></a>
+          <a class="nav-link " href="https://twitter.com/farisfanani" target="_blank"><i class="fab fa-twitter"></i></a>
         </li>
         <li class="nav-item me-2" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Facebook">
-          <a class="nav-link " href="#"><i class="fab fa-facebook"></i></a>
+          <a class="nav-link " href="https://www.facebook.com/farisfanani.id" target="_blank"><i class="fab fa-facebook"></i></a>
         </li>
         <li class="nav-item me-2" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Instagram">
-          <a class="nav-link " href="#"><i class="fab fa-instagram"></i></a>
+          <a class="nav-link " href="https://www.instagram.com/faris.fanani/" target="_blank"><i class="fab fa-instagram"></i></a>
         </li>
       </ul>
     </div>

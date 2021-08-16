@@ -7,11 +7,11 @@
 						<p class="mb-0">Silahkan menghubungi kami untuk jadwal temu dan konsultasi, klik tombol WhatsApp untuk chat langsung dengan kami.</p>
 					</div>
 					<div class="col-lg-3 mb-3 mb-lg-0">
-						<a class="btn btn-light d-flex flex-column align-items-center"><i class="fab fa-whatsapp h1" style="color: var(--success);"></i><span class="fw-bold">Chat WhatsApp</span></a>
+						<a class="btn btn-light d-flex flex-column align-items-center" href="https://wa.me/6285540000900" target="_blank"><i class="fab fa-whatsapp h1" style="color: var(--success);"></i><span class="fw-bold">Chat WhatsApp</span></a>
 					</div>
 				</div>
 				<hr style="background-color: white">
-				<div class="row">
+				<div class="row" >
 					<div class="col-lg-6 mb-3 mb-lg-0">
 						<iframe class="rounded" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1979.9203122495326!2d110.423284!3d-7.028012!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708b87b4078187%3A0x80a0acb63f0fdc74!2sJatingaleh%2C%20Candisari%2C%20Semarang%20City%2C%20Central%20Java%2C%20Indonesia!5e0!3m2!1sen!2sus!4v1627628891761!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 					</div>
@@ -21,8 +21,8 @@
 						<div class="row">
 							<div class="col-lg-6 mb-3 mb-lg-0">
 								<h5>Contact Us</h5>
-								<p class="mb-0">+6285540000900</p>
-								<p class="mb-0">farisfanani.id@gmail.com</p>
+								<p><a href="tel:+6285540000900" class="text-white text-decoration-none border-bottom">+6285540000900</a></p>
+								<p class="mb-0"><a href="mailto:farisfanani.id@gmail.com" class="text-white text-decoration-none border-bottom">farisfanani.id@gmail.com</a></p>
 							</div>
 							<div class="col-lg-6 mb-3 mb-lg-0">
 								<h5>Our Hours</h5>

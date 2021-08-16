@@ -39,7 +39,7 @@
                                         <?php $category = get_the_category(); $cat = $category[0]->cat_name; ?>
                                         <a href="<?php echo home_url(); ?>/category/<?php echo $cat ?>"><p><span class="badge" style="background-color: var(--primary);"><?php echo $cat ?></span></p></a>
 			                            <small class="text-muted">
-			                                <i class="far fa-calendar"></i> <?php the_date();?> &bull;
+											<i class="far fa-calendar"></i> <?php echo date('d M Y',strtotime($post->post_date));?> &bull;
 			                                <i class="far fa-user"></i> By <?php the_author_posts_link(); ?>
 			                            </small>
 			                        </div>

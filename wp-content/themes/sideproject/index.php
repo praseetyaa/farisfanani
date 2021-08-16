@@ -20,7 +20,7 @@
 		</div>
 		<div class="container">
 			<div class="row">
-				<div class="col-6 col-lg-3 mb-3 mb-lg-0">
+				<div class="col-6 col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
 					<div class="card py-2 bg-transparent shadow-none border text-center">
 						<div class="card-body">
 							<img width="50" src="https://image.flaticon.com/icons/svg/5236/5236665.svg" class="header-icon mb-2" alt="icon">
@@ -28,7 +28,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-6 col-lg-3 mb-3 mb-lg-0">
+				<div class="col-6 col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
 					<div class="card py-2 bg-transparent shadow-none border text-center">
 						<div class="card-body">
 							<img width="50" src="https://image.flaticon.com/icons/svg/5236/5236886.svg" class="header-icon mb-2" alt="icon">
@@ -36,7 +36,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-6 col-lg-3 mb-3 mb-lg-0">
+				<div class="col-6 col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
 					<div class="card py-2 bg-transparent shadow-none border text-center">
 						<div class="card-body">
 							<img width="50" src="https://image.flaticon.com/icons/svg/5237/5237046.svg" class="header-icon mb-2" alt="icon">
@@ -44,7 +44,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-6 col-lg-3 mb-3 mb-lg-0">
+				<div class="col-6 col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
 					<div class="card py-2 bg-transparent shadow-none border text-center">
 						<div class="card-body">
 							<img width="50" src="https://image.flaticon.com/icons/svg/5237/5237033.svg" class="header-icon mb-2" alt="icon">
@@ -59,20 +59,20 @@
 		<div class="bg-light rounded-3">
 			<div class="container py-5">
 				<div class="row row-1 align-items-center mb-3">
-					<div class="col-lg-6 mb-3 mb-lg-0">
+					<div class="col-lg-6 mb-3 mb-lg-0" data-aos="fade-up">
 						<img class="img-fluid img-banner rounded" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="img">
 					</div>
-					<div class="col-lg-6 mb-3 mb-lg-0">
+					<div class="col-lg-6 mb-3 mb-lg-0" data-aos="fade-up">
 						<h3>Kenapa Pengembangan SDM Penting?</h3>
 						<p>Banyak bisnis gagal karena persoalan sumber daya manusia. Sumber daya  manusia adalah faktor yang penting dalam bisnis. Tanpa memiliki sumber daya manusia yang berkompeten dan dengan sistem yang baik, maka tujuan bisnis anda tidak akan tercapai maksimal.</p>
 					</div>
 				</div>
 				<div class="row row-2 align-items-center mt-3">
-					<div class="col-lg-6 mb-3 mb-lg-0 order-2 order-lg-1">
+					<div class="col-lg-6 mb-3 mb-lg-0 order-2 order-lg-1" data-aos="fade-up">
 						<h3>Miliki Partner Pengembangan SDM</h3>
 						<p>Kami memiliki kompetensi dalam pengembangan SDM yang mampu membuat sitem yang efektif dan efisien. Kami akan membantu anda mengembangkan SDM anda dan memastikan pelaksanaannya agar sesuai dengan target yang ingin dicapai.</p>
 					</div>
-					<div class="col-lg-6 mb-3 mb-lg-0 order-1 order-lg-2">
+					<div class="col-lg-6 mb-3 mb-lg-0 order-1 order-lg-2" data-aos="fade-up">
 						<img class="img-fluid img-banner rounded" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="img">
 					</div>
 				</div>
@@ -81,9 +81,9 @@
 	</section>
 	<section class="section-c py-5">
 		<div class="container">
-			<h3 class="mb-4 text-center">Yang Harus Anda Miliki Dalam Pengelolaan SDM<hr></h3>
+			<h3 class="mb-4 text-center" data-aos="fade-up">Yang Harus Anda Miliki Dalam Pengelolaan SDM<hr></h3>
 			<div class="row justify-content-center">
-				<div class="col-lg-4 mb-3">
+				<div class="col-md-6 col-lg-4 mb-3" data-aos="fade-up">
 					<div class="card border shadow-none">
 						<div class="card-body d-flex">
 							<img width="70" class="me-2" src="https://image.flaticon.com/icons/svg/4312/4312349.svg" alt="img">
@@ -91,7 +91,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-4 mb-3">
+				<div class="col-md-6 col-lg-4 mb-3" data-aos="fade-up">
 					<div class="card border shadow-none">
 						<div class="card-body d-flex">
 							<img width="70" class="me-2" src="https://image.flaticon.com/icons/svg/4312/4312183.svg" alt="img">
@@ -99,7 +99,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-4 mb-3">
+				<div class="col-md-6 col-lg-4 mb-3" data-aos="fade-up">
 					<div class="card border shadow-none">
 						<div class="card-body d-flex">
 							<img width="70" class="me-2" src="https://image.flaticon.com/icons/svg/4312/4312315.svg" alt="img">
@@ -107,7 +107,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-4 mb-3">
+				<div class="col-md-6 col-lg-4 mb-3" data-aos="fade-up">
 					<div class="card border shadow-none">
 						<div class="card-body d-flex">
 							<img width="70" class="me-2" src="https://image.flaticon.com/icons/svg/4312/4312357.svg" alt="img">
@@ -115,7 +115,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-4 mb-3">
+				<div class="col-md-6 col-lg-4 mb-3" data-aos="fade-up">
 					<div class="card border shadow-none">
 						<div class="card-body d-flex">
 							<img width="70" class="me-2" src="https://image.flaticon.com/icons/svg/4312/4312344.svg" alt="img">
@@ -123,7 +123,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-4 mb-3">
+				<div class="col-md-6 col-lg-4 mb-3" data-aos="fade-up">
 					<div class="card border shadow-none">
 						<div class="card-body d-flex">
 							<img width="70" class="me-2" src="https://image.flaticon.com/icons/svg/4312/4312361.svg" alt="img">
@@ -131,7 +131,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-4 mb-3">
+				<div class="col-md-6 col-lg-4 mb-3" data-aos="fade-up">
 					<div class="card border shadow-none">
 						<div class="card-body d-flex">
 							<img width="70" class="me-2" src="https://image.flaticon.com/icons/svg/4312/4312305.svg" alt="img">
@@ -145,10 +145,10 @@
 	<section class="section-d mb-5">
 		<div class="container">
 			<div class="row row-3 align-items-center">
-				<div class="col-lg-6 mb-3 mb-lg-0">
+				<div class="col-lg-6 mb-3 mb-lg-0" data-aos="fade-right">
 					<img class="img-fluid img-banner rounded" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="img">
 				</div>
-				<div class="col-lg-6 mb-3 mb-lg-0">
+				<div class="col-lg-6 mb-3 mb-lg-0" data-aos="fade-left">
 					<h3>Manusia Diciptakan Dengan Kesempurnaan</h3>
 					<p >pengembangan SDM dengan pendekatan spiritualitas, bahwa fitrah setiap manusia memiliki kelebihan.</p>
 					<figure>

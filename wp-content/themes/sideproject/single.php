@@ -23,7 +23,7 @@ if (have_posts()) {
                     <i class="far fa-user" aria-hidden="true"></i> 
                     <?php the_author_posts_link(); ?>
                     <i class="far fa-calendar ms-2" aria-hidden="true"></i>
-                    <?php the_date( 'D F Y' ); ?>
+                    <?php echo date('d M Y',strtotime($post->post_date));?>
                     <i class="far fa-clock ms-2" aria-hidden="true"></i>
                     <?php the_time(); ?>
                     <i class="fa fa-tags ms-2" aria-hidden="true"></i>

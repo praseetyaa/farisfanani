@@ -7,7 +7,7 @@ Template Name: Halaman About
 
 <section class="container position-relative mt-4">
     <div class="section-e bg-header rounded">
-        <div class="overlay-content position-relative text-white text-center py-0 py-lg-5 rounded overlay-dark"> 
+        <div class="overlay-content position-relative text-white text-center py-5 rounded overlay-dark"> 
             <h1 class="pt-4"><?php the_title();?></h1>
             <h5 class="pb-4">Faris Fanani, M.Psi., Psikolog</h5>
         </div>
