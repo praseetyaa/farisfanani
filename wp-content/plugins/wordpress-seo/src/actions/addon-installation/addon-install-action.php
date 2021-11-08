@@ -119,8 +119,11 @@ class Addon_Install_Action {
 	 *
 	 * @codeCoverageIgnore Contains WordPress specific logic.
 	 *
+<<<<<<< HEAD
 	 * @param string $plugin_download The url to the download.
 	 *
+=======
+>>>>>>> origin/main
 	 * @return bool|WP_Error True when success, WP_Error when something went wrong.
 	 */
 	protected function install( $plugin_download ) {

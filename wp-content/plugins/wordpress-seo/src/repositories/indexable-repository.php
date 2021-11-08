@@ -484,6 +484,9 @@ class Indexable_Repository {
 	 *
 	 * @param Indexable $indexable The indexable.
 	 *
+	 * will be deprecated in 17.3 - Use upgrade_indexable instead.
+	 * @codeCoverageIgnore
+	 *
 	 * @return bool|Indexable The indexable.
 	 */
 	public function ensure_permalink( $indexable ) {

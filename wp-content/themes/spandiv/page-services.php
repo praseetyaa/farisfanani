@@ -24,7 +24,11 @@ get_header(); ?>
             <div class="col-lg-6 mb-3">
                 <div class="card py-2 bg-transparent shadow-none border text-center">
                     <div class="card-body">
+<<<<<<< HEAD
                         <img width="50" src="<?= get_template_directory_uri() ?>/assets/images/icons/tribune.png" class="header-icon mb-2" alt="icon">
+=======
+                        <img width="50" src="<?php echo get_template_directory_uri() ?>/assets/images/icon/speech.png" class="header-icon mb-2" alt="icon">
+>>>>>>> origin/main
                         <p class="fw-bold">Pembicara Publik</p>
                         <p class="mb-0">Pembicara Publik dengan konsentrasi dibidang komunikasi, psikologi, spiritual, bisnis, pengembangan sdm</p>
                     </div>
@@ -33,7 +37,11 @@ get_header(); ?>
             <div class="col-lg-6 mb-3">
                 <div class="card py-2 bg-transparent shadow-none border text-center">
                     <div class="card-body">
+<<<<<<< HEAD
                         <img width="50" src="<?= get_template_directory_uri() ?>/assets/images/icons/instructor.png" class="header-icon mb-2" alt="icon">
+=======
+                        <img width="50" src="<?php echo get_template_directory_uri() ?>/assets/images/icon/analytics.png" class="header-icon mb-2" alt="icon">
+>>>>>>> origin/main
                         <p class="fw-bold">Coaching Bisnis</p>
                         <p class="mb-0">Coaching bisnis bagi bisnis owner untuk memaksimalkan potensi-potensi yang ada dalam sumber daya yang mereka miliki</p>
                     </div>
@@ -42,7 +50,11 @@ get_header(); ?>
             <div class="col-lg-6 mb-3">
                 <div class="card py-2 bg-transparent shadow-none border text-center">
                     <div class="card-body">
+<<<<<<< HEAD
                         <img width="50" src="<?= get_template_directory_uri() ?>/assets/images/icons/human-resources.png" class="header-icon mb-2" alt="icon">
+=======
+                        <img width="50" src="<?php echo get_template_directory_uri() ?>/assets/images/icon/networking.png" class="header-icon mb-2" alt="icon">
+>>>>>>> origin/main
                         <p class="fw-bold">Konsultan Bisnis & HRD</p>
                         <p class="mb-0">Sebagai konsultan HRD, Kami siap membantu perusahaan dalam mengoptimalkan kinerja Sumber Daya Manusia yang dimiliki</p>
                     </div>
@@ -51,7 +63,11 @@ get_header(); ?>
             <div class="col-lg-6 mb-3">
                 <div class="card py-2 bg-transparent shadow-none border text-center">
                     <div class="card-body">
+<<<<<<< HEAD
                         <img width="50" src="<?= get_template_directory_uri() ?>/assets/images/icons/mindset.png" class="header-icon mb-2" alt="icon">
+=======
+                        <img width="50" src="<?php echo get_template_directory_uri() ?>/assets/images/icon/mental-health.png" class="header-icon mb-2" alt="icon">
+>>>>>>> origin/main
                         <p class="fw-bold">Psikolog & Psikoterapis</p>
                         <p class="mb-0">Membantu Anda dalam memahami potensi, bakat dan pengembangan karakter. Memberikan terapi terhadap persoalan mental atau kejiwaan</p>
                     </div>

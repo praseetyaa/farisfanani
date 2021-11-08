@@ -141,13 +141,21 @@ class Installation_Integration implements Integration_Interface {
 		try {
 			$this->addon_activate_action->activate_addon( $addon_slug );
 
+<<<<<<< HEAD
 			/* Translators: %s expands to the name of the addon. */
+=======
+			// Translators: %s expands to the name of the addon.
+>>>>>>> origin/main
 			$output[] = \__( 'Addon activated.', 'wordpress-seo' );
 		} catch ( User_Cannot_Activate_Plugins_Exception $exception ) {
 			$output[] = \__( 'You are not allowed to activate plugins.', 'wordpress-seo' );
 		} catch ( Addon_Activation_Error_Exception $exception ) {
 			$output[] = \sprintf(
+<<<<<<< HEAD
 				/* Translators:%s expands to the error message. */
+=======
+			// Translators:%s expands to the error message.
+>>>>>>> origin/main
 				\__( 'Addon activation failed because of an error: %s.', 'wordpress-seo' ),
 				$exception->getMessage()
 			);
@@ -171,7 +179,11 @@ class Installation_Integration implements Integration_Interface {
 		try {
 			$installed = $this->addon_install_action->install_addon( $addon_slug, $addon_download );
 		} catch ( Addon_Already_Installed_Exception $exception ) {
+<<<<<<< HEAD
 			/* Translators: %s expands to the name of the addon. */
+=======
+			// Translators: %s expands to the name of the addon.
+>>>>>>> origin/main
 			$output[] = \__( 'Addon installed.', 'wordpress-seo' );
 
 			$installed = true;
@@ -179,7 +191,11 @@ class Installation_Integration implements Integration_Interface {
 			$output[] = \__( 'You are not allowed to install plugins.', 'wordpress-seo' );
 		} catch ( Addon_Installation_Error_Exception $exception ) {
 			$output[] = \sprintf(
+<<<<<<< HEAD
 				/* Translators: %s expands to the error message. */
+=======
+			// Translators: %s expands to the error message.
+>>>>>>> origin/main
 				\__( 'Addon installation failed because of an error: %s.', 'wordpress-seo' ),
 				$exception->getMessage()
 			);

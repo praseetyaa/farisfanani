@@ -3,6 +3,10 @@
 namespace Yoast\WP\SEO\Helpers;
 
 use WPSEO_Language_Utils;
+<<<<<<< HEAD
+=======
+use Yoast\WP\SEO\Conditionals\Greek_Support_Conditional;
+>>>>>>> origin/main
 use Yoast\WP\SEO\Conditionals\Japanese_Support_Conditional;
 use Yoast\WP\SEO\Config\Researcher_Languages;
 
@@ -19,12 +23,30 @@ class Language_Helper {
 	protected $japanese_conditional;
 
 	/**
+<<<<<<< HEAD
 	 * Language_Helper constructor.
 	 *
 	 * @param Japanese_Support_Conditional $japanese_conditional The Japanese support conditional.
 	 */
 	public function __construct( Japanese_Support_Conditional $japanese_conditional ) {
 		$this->japanese_conditional = $japanese_conditional;
+=======
+	 * Represents the Greek support conditional.
+	 *
+	 * @var Greek_Support_Conditional
+	 */
+	protected $greek_conditional;
+
+	/**
+	 * Language_Helper constructor.
+	 *
+	 * @param Japanese_Support_Conditional $japanese_conditional The Japanese support conditional.
+	 * @param Greek_Support_Conditional    $greek_conditional    The Greek support conditional.
+	 */
+	public function __construct( Japanese_Support_Conditional $japanese_conditional, Greek_Support_Conditional $greek_conditional ) {
+		$this->japanese_conditional = $japanese_conditional;
+		$this->greek_conditional    = $greek_conditional;
+>>>>>>> origin/main
 	}
 
 	/**
@@ -40,6 +62,16 @@ class Language_Helper {
 		// If JAPANESE_SUPPORT feature is enabled, push Japanese to the array of the supported languages.
 		if ( $this->japanese_conditional->is_met() ) {
 			\array_push( $supported_languages, 'ja' );
+		}
+
+		// If JAPANESE_SUPPORT feature is enabled, push Japanese to the array of the supported languages.
+		if ( $this->japanese_conditional->is_met() ) {
+			\array_push( $supported_languages, 'ja' );
+		}
+
+		// If GREEK_SUPPORT feature is enabled, push Greek to the array of the supported languages.
+		if ( $this->greek_conditional->is_met() ) {
+			\array_push( $supported_languages, 'el' );
 		}
 
 		return \in_array( $language, $supported_languages, true );
@@ -61,6 +93,16 @@ class Language_Helper {
 			\array_push( $supported_languages, 'ja' );
 		}
 
+		// If JAPANESE_SUPPORT feature is enabled, push Japanese to the array of the supported languages.
+		if ( $this->japanese_conditional->is_met() ) {
+			\array_push( $supported_languages, 'ja' );
+		}
+
+		// If GREEK_SUPPORT feature is enabled, push Greek to the array of the supported languages.
+		if ( $this->greek_conditional->is_met() ) {
+			\array_push( $supported_languages, 'el' );
+		}
+
 		return \in_array( $language, $supported_languages, true );
 	}
 
@@ -78,6 +120,15 @@ class Language_Helper {
 		if ( $this->japanese_conditional->is_met() ) {
 			\array_push( $supported_languages, 'ja' );
 		}
+<<<<<<< HEAD
+=======
+
+		// If GREEK_SUPPORT feature is enabled, push Greek to the array of the supported languages.
+		if ( $this->greek_conditional->is_met() ) {
+			\array_push( $supported_languages, 'el' );
+		}
+
+>>>>>>> origin/main
 		if ( ! \in_array( $researcher_language, $supported_languages, true ) ) {
 			$researcher_language = 'default';
 		}
