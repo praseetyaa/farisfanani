@@ -23,11 +23,7 @@
 				<div class="col-6 col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
 					<div class="card py-2 bg-transparent shadow-none border text-center">
 						<div class="card-body">
-<<<<<<< HEAD
 							<img width="50" src="<?= get_template_directory_uri() ?>/assets/images/icons/tribune.png" class="mb-2" alt="icon">
-=======
-							<img width="50" src="<?php echo get_template_directory_uri() ?>/assets/images/icon/speech.png" class="mb-2" alt="icon">
->>>>>>> origin/main
 							<p class="mb-0">Pembicara Publik</p>
 						</div>
 					</div>
@@ -35,11 +31,7 @@
 				<div class="col-6 col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
 					<div class="card py-2 bg-transparent shadow-none border text-center">
 						<div class="card-body">
-<<<<<<< HEAD
 							<img width="50" src="<?= get_template_directory_uri() ?>/assets/images/icons/instructor.png" class="hmb-2" alt="icon">
-=======
-							<img width="50" src="<?php echo get_template_directory_uri() ?>/assets/images/icon/analytics.png" class="mb-2" alt="icon">
->>>>>>> origin/main
 							<p class="mb-0">Coaching Bisnis</p>
 						</div>
 					</div>
@@ -47,11 +39,7 @@
 				<div class="col-6 col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
 					<div class="card py-2 bg-transparent shadow-none border text-center">
 						<div class="card-body">
-<<<<<<< HEAD
 							<img width="50" src="<?= get_template_directory_uri() ?>/assets/images/icons/human-resources.png" class="hmb-2" alt="icon">
-=======
-							<img width="50" src="<?php echo get_template_directory_uri() ?>/assets/images/icon/networking.png" class="mb-2" alt="icon">
->>>>>>> origin/main
 							<p class="mb-0">Konsultan Bisnis & HRD</p>
 						</div>
 					</div>
@@ -59,11 +47,7 @@
 				<div class="col-6 col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
 					<div class="card py-2 bg-transparent shadow-none border text-center">
 						<div class="card-body">
-<<<<<<< HEAD
 							<img width="50" src="<?= get_template_directory_uri() ?>/assets/images/icons/mindset.png" class="hmb-2" alt="icon">
-=======
-							<img width="50" src="<?php echo get_template_directory_uri() ?>/assets/images/icon/mental-health.png" class="mb-2" alt="icon">
->>>>>>> origin/main
 							<p class="mb-0">Psikolog & Psikoterapis</p>
 						</div>
 					</div>
@@ -102,11 +86,7 @@
 				<div class="col-md-6 col-lg-4 mb-3" data-aos="fade-up">
 					<div class="card border shadow-none">
 						<div class="card-body d-flex">
-<<<<<<< HEAD
 							<img width="70" class="me-2" src="<?= get_template_directory_uri() ?>/assets/images/icons/employees.png" alt="img">
-=======
-							<img width="70" class="me-2" src="<?php echo get_template_directory_uri() ?>/assets/images/icon/selection.png" alt="img">
->>>>>>> origin/main
 							<span>Memiliki Sistem Rekrutmen yang baik agar mendapatkan SDM yang kompeten.</span>
 						</div>
 					</div>
@@ -114,11 +94,7 @@
 				<div class="col-md-6 col-lg-4 mb-3" data-aos="fade-up">
 					<div class="card border shadow-none">
 						<div class="card-body d-flex">
-<<<<<<< HEAD
 							<img width="70" class="me-2" src="<?= get_template_directory_uri() ?>/assets/images/icons/cogwheel.png" alt="img">
-=======
-							<img width="70" class="me-2" src="<?php echo get_template_directory_uri() ?>/assets/images/icon/settings.png" alt="img">
->>>>>>> origin/main
 							<span>Memiliki Sistem pelatihan yang tepat</span>
 						</div>
 					</div>
@@ -126,11 +102,7 @@
 				<div class="col-md-6 col-lg-4 mb-3" data-aos="fade-up">
 					<div class="card border shadow-none">
 						<div class="card-body d-flex">
-<<<<<<< HEAD
 							<img width="70" class="me-2" src="<?= get_template_directory_uri() ?>/assets/images/icons/certificate.png" alt="img">
-=======
-							<img width="70" class="me-2" src="<?php echo get_template_directory_uri() ?>/assets/images/icon/contract.png" alt="img">
->>>>>>> origin/main
 							<span>Memiliki Sistem Legal dan Kontrak Kerja</span>
 						</div>
 					</div>
@@ -138,11 +110,7 @@
 				<div class="col-md-6 col-lg-4 mb-3" data-aos="fade-up">
 					<div class="card border shadow-none">
 						<div class="card-body d-flex">
-<<<<<<< HEAD
 							<img width="70" class="me-2" src="<?= get_template_directory_uri() ?>/assets/images/icons/employee.png" alt="img">
-=======
-							<img width="70" class="me-2" src="<?php echo get_template_directory_uri() ?>/assets/images/icon/employee (1).png" alt="img">
->>>>>>> origin/main
 							<span>Evaluasi Kinerja, Reward dan Punishmen yang dapat memotivasi</span>
 						</div>
 					</div>
@@ -150,11 +118,7 @@
 				<div class="col-md-6 col-lg-4 mb-3" data-aos="fade-up">
 					<div class="card border shadow-none">
 						<div class="card-body d-flex">
-<<<<<<< HEAD
 							<img width="70" class="me-2" src="<?= get_template_directory_uri() ?>/assets/images/icons/graph.png" alt="img">
-=======
-							<img width="70" class="me-2" src="<?php echo get_template_directory_uri() ?>/assets/images/icon/employee.png" alt="img">
->>>>>>> origin/main
 							<span>Evisien dalam SDM sesuai dengan kebutuhan produksi</span>
 						</div>
 					</div>
@@ -162,11 +126,7 @@
 				<div class="col-md-6 col-lg-4 mb-3" data-aos="fade-up">
 					<div class="card border shadow-none">
 						<div class="card-body d-flex">
-<<<<<<< HEAD
 							<img width="70" class="me-2" src="<?= get_template_directory_uri() ?>/assets/images/icons/manager.png" alt="img">
-=======
-							<img width="70" class="me-2" src="<?php echo get_template_directory_uri() ?>/assets/images/icon/candidates.png" alt="img">
->>>>>>> origin/main
 							<span>Pengembangan Kompetensi karyawan sesuai dengan potensi dan bakat</span>
 						</div>
 					</div>
@@ -174,11 +134,7 @@
 				<div class="col-md-6 col-lg-4 mb-3" data-aos="fade-up">
 					<div class="card border shadow-none">
 						<div class="card-body d-flex">
-<<<<<<< HEAD
 							<img width="70" class="me-2" src="<?= get_template_directory_uri() ?>/assets/images/icons/target.png" alt="img">
-=======
-							<img width="70" class="me-2" src="<?php echo get_template_directory_uri() ?>/assets/images/icon/employee (2).png" alt="img">
->>>>>>> origin/main
 							<span>Dan kebutuhan Lainnya sesuai tujuan bisnis anda</span>
 						</div>
 					</div>	
