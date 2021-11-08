@@ -23,7 +23,7 @@
 				<div class="col-6 col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
 					<div class="card py-2 bg-transparent shadow-none border text-center">
 						<div class="card-body">
-							<img width="50" src="https://image.flaticon.com/icons/svg/5236/5236665.svg" class="header-icon mb-2" alt="icon">
+							<img width="50" src="<?= get_template_directory_uri() ?>/assets/images/icons/tribune.png" class="mb-2" alt="icon">
 							<p class="mb-0">Pembicara Publik</p>
 						</div>
 					</div>
@@ -31,7 +31,7 @@
 				<div class="col-6 col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
 					<div class="card py-2 bg-transparent shadow-none border text-center">
 						<div class="card-body">
-							<img width="50" src="https://image.flaticon.com/icons/svg/5236/5236886.svg" class="header-icon mb-2" alt="icon">
+							<img width="50" src="<?= get_template_directory_uri() ?>/assets/images/icons/instructor.png" class="hmb-2" alt="icon">
 							<p class="mb-0">Coaching Bisnis</p>
 						</div>
 					</div>
@@ -39,7 +39,7 @@
 				<div class="col-6 col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
 					<div class="card py-2 bg-transparent shadow-none border text-center">
 						<div class="card-body">
-							<img width="50" src="https://image.flaticon.com/icons/svg/5237/5237046.svg" class="header-icon mb-2" alt="icon">
+							<img width="50" src="<?= get_template_directory_uri() ?>/assets/images/icons/human-resources.png" class="hmb-2" alt="icon">
 							<p class="mb-0">Konsultan Bisnis & HRD</p>
 						</div>
 					</div>
@@ -47,7 +47,7 @@
 				<div class="col-6 col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
 					<div class="card py-2 bg-transparent shadow-none border text-center">
 						<div class="card-body">
-							<img width="50" src="https://image.flaticon.com/icons/svg/5237/5237033.svg" class="header-icon mb-2" alt="icon">
+							<img width="50" src="<?= get_template_directory_uri() ?>/assets/images/icons/mindset.png" class="hmb-2" alt="icon">
 							<p class="mb-0">Psikolog & Psikoterapis</p>
 						</div>
 					</div>
@@ -86,7 +86,7 @@
 				<div class="col-md-6 col-lg-4 mb-3" data-aos="fade-up">
 					<div class="card border shadow-none">
 						<div class="card-body d-flex">
-							<img width="70" class="me-2" src="https://image.flaticon.com/icons/svg/4312/4312349.svg" alt="img">
+							<img width="70" class="me-2" src="<?= get_template_directory_uri() ?>/assets/images/icons/employees.png" alt="img">
 							<span>Memiliki Sistem Rekrutmen yang baik agar mendapatkan SDM yang kompeten.</span>
 						</div>
 					</div>
@@ -94,7 +94,7 @@
 				<div class="col-md-6 col-lg-4 mb-3" data-aos="fade-up">
 					<div class="card border shadow-none">
 						<div class="card-body d-flex">
-							<img width="70" class="me-2" src="https://image.flaticon.com/icons/svg/4312/4312183.svg" alt="img">
+							<img width="70" class="me-2" src="<?= get_template_directory_uri() ?>/assets/images/icons/cogwheel.png" alt="img">
 							<span>Memiliki Sistem pelatihan yang tepat</span>
 						</div>
 					</div>
@@ -102,7 +102,7 @@
 				<div class="col-md-6 col-lg-4 mb-3" data-aos="fade-up">
 					<div class="card border shadow-none">
 						<div class="card-body d-flex">
-							<img width="70" class="me-2" src="https://image.flaticon.com/icons/svg/4312/4312315.svg" alt="img">
+							<img width="70" class="me-2" src="<?= get_template_directory_uri() ?>/assets/images/icons/certificate.png" alt="img">
 							<span>Memiliki Sistem Legal dan Kontrak Kerja</span>
 						</div>
 					</div>
@@ -110,7 +110,7 @@
 				<div class="col-md-6 col-lg-4 mb-3" data-aos="fade-up">
 					<div class="card border shadow-none">
 						<div class="card-body d-flex">
-							<img width="70" class="me-2" src="https://image.flaticon.com/icons/svg/4312/4312357.svg" alt="img">
+							<img width="70" class="me-2" src="<?= get_template_directory_uri() ?>/assets/images/icons/employee.png" alt="img">
 							<span>Evaluasi Kinerja, Reward dan Punishmen yang dapat memotivasi</span>
 						</div>
 					</div>
@@ -118,7 +118,7 @@
 				<div class="col-md-6 col-lg-4 mb-3" data-aos="fade-up">
 					<div class="card border shadow-none">
 						<div class="card-body d-flex">
-							<img width="70" class="me-2" src="https://image.flaticon.com/icons/svg/4312/4312344.svg" alt="img">
+							<img width="70" class="me-2" src="<?= get_template_directory_uri() ?>/assets/images/icons/graph.png" alt="img">
 							<span>Evisien dalam SDM sesuai dengan kebutuhan produksi</span>
 						</div>
 					</div>
@@ -126,7 +126,7 @@
 				<div class="col-md-6 col-lg-4 mb-3" data-aos="fade-up">
 					<div class="card border shadow-none">
 						<div class="card-body d-flex">
-							<img width="70" class="me-2" src="https://image.flaticon.com/icons/svg/4312/4312361.svg" alt="img">
+							<img width="70" class="me-2" src="<?= get_template_directory_uri() ?>/assets/images/icons/manager.png" alt="img">
 							<span>Pengembangan Kompetensi karyawan sesuai dengan potensi dan bakat</span>
 						</div>
 					</div>
@@ -134,7 +134,7 @@
 				<div class="col-md-6 col-lg-4 mb-3" data-aos="fade-up">
 					<div class="card border shadow-none">
 						<div class="card-body d-flex">
-							<img width="70" class="me-2" src="https://image.flaticon.com/icons/svg/4312/4312305.svg" alt="img">
+							<img width="70" class="me-2" src="<?= get_template_directory_uri() ?>/assets/images/icons/target.png" alt="img">
 							<span>Dan kebutuhan Lainnya sesuai tujuan bisnis anda</span>
 						</div>
 					</div>	
