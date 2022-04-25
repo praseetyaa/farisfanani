@@ -22,7 +22,7 @@ get_header(); ?>
 			<button data-aos="fade-up" data-aos-duration="3000" onclick="beranda()" class="btn btn-theme btn-theme-1 me-2"><i class="far fa-home-lg-alt"></i> Beranda</button>
 		</div>
 		<p class="position-absolute start-50 translate-middle" style="top: 93%">Made with <i class="fa fa-heart" style="font-size: .8rem; color: rgba(230, 57, 70, 1);"></i></p>
-		<p class="position-absolute start-50 translate-middle" style="top: 96%"><i class="fab fa-github"></i> Github <a href="https://github.com/praseetyaa" class="text-white" target="_blank">Praseetyaa</a></p>
+		<p class="position-absolute start-50 translate-middle" style="top: 96%"><i class="fab fa-github"></i> Powered by <a href="https://spandiv.xyz" class="text-white" target="_blank">Spandiv</a></p>
 
 	</div>
 </div>
